@@ -1,0 +1,3 @@
+- 👋 Hi, I’m @Swathisiva35
+- 👀 I’m interested in WEB and UI/UX development
+- 🌱 I’m currently learning BE CSe
