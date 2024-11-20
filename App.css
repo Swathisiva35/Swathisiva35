@@ -1,0 +1,168 @@
+/* App container */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #f3d7e0);
+  min-height: 100vh;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 3em;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+/* Button hover effect for category selection */
+button {
+  margin: 12px;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: #00C9FF;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in, background-color 0.3s ease;
+}
+
+/* Button styling for a hover effect */
+button:hover {
+  background-color: #92FE9D;
+  transform: translateY(-5px) scale(1.05);
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Category container styles */
+.category-container {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 50px auto;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+.name-input {
+    margin-bottom: 20px;
+}
+
+.name-input-field {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    max-width: 300px;
+    margin-right: 10px;
+    font-size: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.start-button {
+    padding: 10px 20px;
+    background-color: #f9c74f; /* Bright yellow color */
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: #f9a51f; /* Darker yellow on hover */
+}
+
+.category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+}
+
+.category-button {
+    background-color: #36b84a; /* Green color */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.category-button:hover {
+    background-color: #28a745; /* Darker green on hover */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+}
+
+/* Score container */
+.score-container {
+  padding: 40px;
+  text-align: center;
+  background: linear-gradient(145deg, #ff9a9e, #fad0c4); /* pink and peach gradient */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: 50px auto;
+  color: #3e3e3e; /* dark text for contrast */
+}
+
+/* Score details */
+.score-details h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #2e4053; /* darker for readability */
+  text-shadow: 1px 1px 5px #ff9671;
+}
+
+.score-details h3 {
+  font-size: 2em;
+  margin: 10px 0;
+  color: #ff6f61; /* visible pink */
+  text-shadow: 1px 1px 5px #f9f871;
+}
+
+.score-details p {
+  font-size: 1.5em;
+  color: #3e3e3e; /* dark gray text */
+}
+
+/* Play again button styles */
+.play-again-button {
+  background: linear-gradient(135deg, #63b4d1, #4e54c8); /* blue gradient */
+  padding: 10px 25px;
+  font-size: 1.1em;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+
+.play-again-button:hover {
+  background: linear-gradient(135deg, #4e54c8, #63b4d1); /* reverse gradient on hover */
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
